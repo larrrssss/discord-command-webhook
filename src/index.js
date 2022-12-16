@@ -17,7 +17,7 @@ function reduceToString(id, prefix, options) {
     }
 
     if (o.type === 1)
-      content += `</${prefix} ${o.name}:${id}> - \`</${o.name}:${id}>\`\n`;
+      content += `</${prefix} ${o.name}:${id}> - \`</${prefix} ${o.name}:${id}>\`\n`;
   }
   return content;
 }
